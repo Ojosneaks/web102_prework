@@ -21,6 +21,14 @@ body {
 
 .stats-container {
     display: flex;
+    align-items:flex-start;
+    
+
+    
+}
+.stats-container:hover{
+    cursor:pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -72,4 +80,31 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+
+}
+
+/*extra button effects */
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.95); /* Button "shrinks" slightly */
+    background-color: #0056b3; /* Darker color when clicked */
+  }
+  
+button.clicked {
+    animation: click-effect 0.3s ease-out;
+  }
+  
+  @keyframes click-effect {
+    0% {
+      box-shadow: 0 0 0px rgba(0, 123, 255, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    }
+    100% {
+      box-shadow: 0 0 0px rgba(0, 123, 255, 0);
+    }
 }
