@@ -23,7 +23,8 @@ The following **optional** features are implemented: Added hover effect to the u
 
 Here's a walkthrough of implemented features:
 
-<img src='Animation.gif'  title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<![Video Walkthrough](./assets/Animation.gif "Video Walkthrough")
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGIF  
